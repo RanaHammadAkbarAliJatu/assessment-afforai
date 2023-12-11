@@ -6,6 +6,12 @@ import CreateMultipleChatbots from "./components/CreateMultipleChatbots"
 import CustomizeYourAssistant from "./components/CustomizeYourAssistant"
 import Regardless from "./components/Regardless"
 import Footer from "./components/Footer"
+import FileWizard from "./components/FileWizard"
+import UploadFiles from "./components/UploadFiles"
+import UnquestionableAccuracy from "./components/UnquestionableAccuracy"
+import SeeWhatOurUsers from "./components/SeeWhatOurUsers"
+import MoneyBack from "./components/MoneyBack"
+import Saving from "./components/StartSaving"
 function App() {
   return (
     <>
@@ -17,6 +23,12 @@ function App() {
      <CreateMultipleChatbots />
      <CustomizeYourAssistant />
      <Regardless />
+     <FileWizard/>
+     <UploadFiles />
+     <UnquestionableAccuracy />
+     <SeeWhatOurUsers />
+     <MoneyBack />
+     <Saving />
      <Footer />
     </>
       );
