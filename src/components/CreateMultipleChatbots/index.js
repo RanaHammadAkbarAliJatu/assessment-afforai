@@ -31,8 +31,6 @@ const InnerContainer = styled.div`
   padding-left: 16px;
   flex-direction: column;
   display: flex;
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -99,7 +97,6 @@ const StyledButton = styled.button`
   text-decoration: none solid rgb(255, 255, 255);
   transition: color 0.2s ease-in-out 0s, background-color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
   user-select: none;
-  vertical-align: middle;
   appearance: button;
   text-transform: none;
   margin: 0px;
@@ -123,7 +120,6 @@ const SecondaryButton = styled.button`
   text-decoration: none solid rgb(82, 82, 82);
   transition: color 0.2s ease-in-out 0s, background-color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
   user-select: none;
-  vertical-align: middle;
   appearance: button;
   text-transform: none;
   margin: 0px;

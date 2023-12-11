@@ -31,8 +31,6 @@ const InnerContainer = styled.div`
   align-items: flex-start;
   flex-direction: column;
   display: flex;
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
   margin-left: auto;
   margin-right: auto;
   padding-left: 12px;

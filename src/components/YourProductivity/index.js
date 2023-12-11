@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
   margin-left: -12px;
@@ -31,8 +29,6 @@ const RightColumn = styled.div`
   padding-right: 48px;
   max-width: 1320px;
   padding-left: 16px;
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
